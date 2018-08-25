@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+
+		<div class="jumbotron">
+			<h1 class="text-center" style="border-bottom: 2px solid black"><span class="glyphicon glyphicon-fire"></span> Survey Questions</h1>
+			<h2>About You</h2>
+            <br>
+            <h4> Name</h3>
+            <input type="text" id="name" class="form-control" required> 
+            <h4> Link to Photo</h3>
+            <input type="text" id="photo" class="form-control" required> 
+            <hr style="border-bottom: 2px solid black">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                                <h4> I like dogs </h3>
+                                <form class="dog">
+                                    <select name="dog" id="dog">
+                                    <option value="">-- Select --</option>
+                                    <option value="1">1 - Strongly Disagree</option>
+                                    <option value="2">2 - Slightly Disagree</option>
+                                    <option value="3">3 - Neutral</option>
+                                    <option value="4">4 - Slightly Agree</option>
+                                    <option value="5">5 - Strongly Agree</option>
+                                    </select> 
+                                </form> 
+                                <h4> I like cats</h3>
+                                <form class="cat">
+                                    <select name="cat" id="cat">
+                                    <option value="">-- Select --</option>
+                                    <option value="1">1 - Strongly Disagree</option>
+                                    <option value="2">2 - Slightly Disagree</option>
+                                    <option value="3">3 - Neutral</option>
+                                    <option value="4">4 - Slightly Agree</option>
+                                    <option value="5">5 - Strongly Agree</option>
+                                    </select> 
+                                </form>
+                                <h4> I love sports</h3>
+                                <form class="sports">
+                                    <select name="sports" id="sports">
+                                    <option value="">-- Select --</option>
+                                    <option value="1">1 - Strongly Disagree</option>
+                                    <option value="2">2 - Slightly Disagree</option>
+                                    <option value="3">3 - Neutral</option>
+                                    <option value="4">4 - Slightly Agree</option>
+                                    <option value="5">5 - Strongly Agree</option>
+                                    </select> 
+                                </form>
+                                <h4> I love video games</h3>
+                                <form class="games">
+                                    <select name="games" id="games">
+                                    <option value="">-- Select --</option>
+                                    <option value="1">1 - Strongly Disagree</option>
+                                    <option value="2">2 - Slightly Disagree</option>
+                                    <option value="3">3 - Neutral</option>
+                                    <option value="4">4 - Slightly Agree</option>
+                                    <option value="5">5 - Strongly Agree</option>
+                                    </select> 
+                                </form>
+                                <h4> I love to watch movies</h3>
+                                <form class="movies">
+                                    <select name="movies" id="movies">
+                                    <option value="">-- Select --</option>
+                                    <option value="1">1 - Strongly Disagree</option>
+                                    <option value="2">2 - Slightly Disagree</option>
+                                    <option value="3">3 - Neutral</option>
+                                    <option value="4">4 - Slightly Agree</option>
+                                    <option value="5">5 - Strongly Agree</option>
+                                    </select> 
+                                </form>
+                                <h4> I love to go clubbing</h3>
+                                <form class="club">
+                                    <select name="club" id="club">
+                                    <option value="">-- Select --</option>
+                                    <option value="1">1 - Strongly Disagree</option>
+                                    <option value="2">2 - Slightly Disagree</option>
+                                    <option value="3">3 - Neutral</option>
+                                    <option value="4">4 - Slightly Agree</option>
+                                    <option value="5">5 - Strongly Agree</option>
+                                    </select> 
+                                </form>
+                                <h4> I love to dance</h3>
+                                <form class="dance">
+                                    <select name="dance" id="dance">
+                                    <option value="">-- Select --</option>
+                                    <option value="1">1 - Strongly Disagree</option>
+                                    <option value="2">2 - Slightly Disagree</option>
+                                    <option value="3">3 - Neutral</option>
+                                    <option value="4">4 - Slightly Agree</option>
+                                    <option value="5">5 - Strongly Agree</option>
+                                    </select> 
+                                </form>
+                                <h4> I love to eat gourmet food</h3>
+                                <form class="food">
+                                    <select name="food" id="food">
+                                    <option value="">-- Select --</option>
+                                    <option value="1">1 - Strongly Disagree</option>
+                                    <option value="2">2 - Slightly Disagree</option>
+                                    <option value="3">3 - Neutral</option>
+                                    <option value="4">4 - Slightly Agree</option>
+                                    <option value="5">5 - Strongly Agree</option>
+                                    </select> 
+                                </form>
+                                <h4> I love travelling</h3>
+                                <form class="travel">
+                                    <select name="travel" id="travel">
+                                    <option value="">-- Select --</option>
+                                    <option value="1">1 - Strongly Disagree</option>
+                                    <option value="2">2 - Slightly Disagree</option>
+                                    <option value="3">3 - Neutral</option>
+                                    <option value="4">4 - Slightly Agree</option>
+                                    <option value="5">5 - Strongly Agree</option>
+                                    </select> 
+                                </form>
+                                <h4> I love to read</h3>
+                                <form class="read">
+                                    <select name="read" id="read">
+                                    <option value="">-- Select --</option>
+                                    <option value="1">1 - Strongly Disagree</option>
+                                    <option value="2">2 - Slightly Disagree</option>
+                                    <option value="3">3 - Neutral</option>
+                                    <option value="4">4 - Slightly Agree</option>
+                                    <option value="5">5 - Strongly Agree</option>
+                                    </select> 
+                                </form>
+                        </div>
+
+                        <br>
+                        <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#myModal" id="search-btn"><span class="fa fa-search"></span> Submit Survey</button>
+
+                    </div>
+
+                </div>
+            </div>
+		</div>
+
+        <br>
+        
+
+
+	</div>
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                
+            </div>
+            <div class="modal-body" style="margin: 0 auto">
+                <h4 class="modal-title" id="modalName">Your perfect match is </h4>
+                <img id="modalImage"/>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+
+    //Function that calculates the best match for the person
+    testCompatibility = function(personScore) {
+        
+        var highScore = -999999;
+        var currentScore;
+        var perfectMatch; 
+
+        $.get("/api/friends", function(data) {
+            
+            if (data) {
+                for (var i = 0; i < data.length; i ++){
+                
+                    currentScore = 0;
+
+                    
+                    for (var y = 0; y < 10; y ++) {
+                        currentScore -= Math.abs(personScore[y] - data[i].scores[y]);
+                    }
+
+                    if (currentScore > highScore) {
+                        highScore = currentScore;
+                        perfectMatch = i;
+                    }
+                }
+
+            }
+            
+
+        $("#modalName").html("Your perfect match is " + data[perfectMatch].name + "!!");
+        $("#modalImage").html("<img style=\"width:300px; margin: 0 auto; text-align: center\" src=\"" + data[perfectMatch].photo + "\" />");
+        });
+
+    }
+
+    //Clicking the button checks the friends database for a match
+    $("#search-btn").on('click', function() {
+
+      //Validation to see if all inputs have been entered
+      if ($("#name").val() == "" || $("#photo").val() == "" || $("#dog").val() == "" || $("#cat").val() == "" || $("#sports").val() == ""|| $("#games").val() == ""|| $("#movies").val() == ""|| $("#club").val() == ""|| $("#dance").val() == "" || $("#food").val() == ""|| $("#travel").val() == ""|| $("#read").val() == "") {
+            $("#modalName").html("Please fill in all fields");   
+            return;
+      }
+      
+      var theScore = [];
+      theScore.push(parseInt($("#dog").val()));
+      theScore.push(parseInt($("#cat").val()));
+      theScore.push(parseInt($("#sports").val()));
+      theScore.push(parseInt($("#games").val()));
+      theScore.push(parseInt($("#movies").val()));
+      theScore.push(parseInt($("#club").val()));
+      theScore.push(parseInt($("#dance").val()));
+      theScore.push(parseInt($("#food").val()));
+      theScore.push(parseInt($("#travel").val()));
+      theScore.push(parseInt($("#read").val()));
+    
+      var newFriend = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        scores: theScore
+      };
+
+      //Calls the testCompatibility function which locates the best match for the person
+      testCompatibility(theScore);
+
+      //Adds the person that just answered the survey into the database
+      $.post("/api/friends", newFriend, function(data) {
+          console.log("add.html", data);
+          if (data == true) {
+          alert("Adding friend...");
+          } else if (data == false){
+              alert ("Failed");
+          }
+
+		  $('#name').val("");
+          $('#photo').val("");
+          $('#dog').val("");
+		  $('#cat').val("");
+		  $('#sports').val("");
+          $('#games').val("");
+          $('#movies').val("");
+		  $('#club').val("");
+		  $('#dance').val("");
+          $('#food').val("");
+          $('#travel').val("");
+		  $('#read').val("");
+          location.reload();
+      });
+
+      
+
+    });
+
+
+
+</script>
+
+</html>
