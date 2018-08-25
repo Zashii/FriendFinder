@@ -19,6 +19,6 @@ var data = require("./app/data/friends.js");
 
 // Starts the server to begin listening
 // =============================================================
-app.listen(PORT, function() {
+app.listen(process.env.PORT || 8000, function() {
   console.log("App listening on PORT " + PORT);
 });
